@@ -1,0 +1,34 @@
+@font-face{
+    font-family: DEVROYUN;
+    src: url(../fonts/DEVROYUN.ttf);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.site{
+    text-align:  center;
+}
+
+.menu{
+    font-size: 22pt;
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+.lines {
+    display:inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.right {
+    float: left;
+}
+
+.text-coral {
+    color: coral;
+}
