@@ -1,13 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 
 
 
 
 @font-face{
-    font-family: DEVROYUN;
-    src: url(../fonts/DEVROYUN.ttf);
-    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
     font-style: normal;
 
 }
@@ -16,10 +15,52 @@
     text-align:  center;
 }
 
-.menu{
-    font-size: 22pt;
+.background-HarryPotter{
+    background: #f2fdff;
+    text-align: center;
+}
+
+.mainmenu{
     vertical-align: top;
-    padding-top: 15px;
+    padding: 15px 0 22px 0;
+    width: 1140px;
+    margin: 16px auto 115px auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgb(190, 205, 208);
+    /*background-attachment: fixed;*/
+    background: #ffffff;
+    position: fixed;
+    left: 50%;
+    margin-left: -570px;
+  }
+
+.mainmenu .lines{
+    display: table-cell;
+}
+
+.logo{
+    padding-left: 35px;
+}
+
+.icons{
+    padding-right: 35px;
+}
+
+.mainmenu .icons a:not(:last-child){
+    padding-right: 32px;
+
+}
+
+.menulist{
+    vertical-align: middle;
+    padding: 20px 42px 20px 85px;
+}
+
+.menulist a{
+    padding-right: 47px;
 }
 
 .lines {
@@ -38,3 +79,102 @@ a {
 .text-coral {
     color: coral;
 }
+
+
+.wide-page {
+    width: 1920px;
+    margin: auto;
+    padding: 0;
+}
+
+.narrow-page {
+    width: 1140px;
+    margin: auto;
+    padding: 0;
+}
+
+.HarryPotter {
+    margin-top: 220px;
+
+}
+
+
+
+/*
+    /*width: 1140px;(1920)исплей тейбл сейл вертикал элайн (картинки лолжны иметь надписи при варианте невысвечивания)
+
+*/
+
+
+.novelties-season{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* popup-login*/
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: opacity 200ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay.light {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 75px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #666;
+    width: 300px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+.light .popup {
+    border-color: #aaa;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.popup .close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    right: 20px;
+    opacity: 0.8;
+    transition: all 200ms;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #666;
+}
+.popup .close:hover {
+    opacity: 1;
+}
+.popup .content {
+    max-height: 400px;
+    overflow: auto;
+}
+/* end popup-login*/
+
+
+
+@media all and (max-width: 1200px){
+
+
+
+}
+
