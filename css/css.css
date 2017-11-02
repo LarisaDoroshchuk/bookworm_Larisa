@@ -301,6 +301,20 @@ a {
 /* end popup-yourCard*/
 
 
+@media screen and (max-width: 1200px) {
+    .wide-page {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-color: yellow;}
+}
+
+@media screen and (min-width: 768px) {
+
+}
 
 
 
