@@ -24,7 +24,7 @@
                     </div>
                     <div class="icons lines menu" >
                         <a href="#"><img src="img/Search.svg"></a>
-                        <a href="#"><img src="img/shopping cart.svg"></a>
+                        <a class="button" href="#popup-yourCard"><img src="img/shopping cart.svg"></a>
                         <a class="button" href="#popup-login"><img src="img/pexels-photo-69494.png"></a>
                     </div>
                 </div>
@@ -420,39 +420,125 @@
         <!--begin popup-login-->
         <div id="popup-login" class="overlay light">
             <div class="popup">
-                <h2>Info box</h2>
                 <a class="close" href="#">&times;</a>
                 <div class="content">
                     <h2>Login</h2>
-                    <div>
-                        <form id="E-mail" action="" method="get">
-                            <!--<label for="E-mail">First Name</label>-->
-                            <input type="text" id="" name="firstname" placeholder="E-mail..">
+
+                        <form id="form-login" action="" method="get">
+                            <div>
+                                <label for="email"></label>
+                                <input type="text" id="email" name="mail" placeholder="E-mail">
+                            </div>
+
+                            <div>
+                                <label for="password"></label>
+                                <input type="text" id="password" name="Password" placeholder="Password">
+                            </div>
+
+                            <div class="remember">
+                                <div class="left">
+                                    <input type="checkbox" id="remember" name="remember_me" />
+                                    <label for="remember">Remember me</label>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="forgot-password">Forgot password</a>
+                                </div>
+                            </div>
+                            <div class="clear">
+
+                            </div>
+                            <div>
+                                <input id="Sing-in" type="submit" value="Sing_in">
+                            </div>
                         </form>
-                    </div>
-                    <div>
-                        <form id="Password" action="" method="get">
-                            <!--<label for="Password">First Name</label>-->
-                            <input type="text" id="Password" name="Password" placeholder="Password">
-                        </form>
-                    </div>
-                    <input type="checkbox" checked/>
-                    <span>Remember me</span>
-                    <span>Forgot password</span>
-                    <form action="Sing_in">
-                        <p><input type="submit" value="Sing in"></p>
-                    </form>
-                    <a href="#">Create an account<img src="img/Arrow right.svg"></a>
-                    <div>Sing in with social:</div>
-                    <div>
-                        <a href="#"><img src="img/Facebook.svg">f</a>
-                        <a href="#"><img src="img/Twitter.svg">tw</a>
-                        <a href="#"><img src="img/Google.svg">G</a>
+
+                    <a class="create" href="#">Create an account<img src="img/Arrow right.svg"></a>
+                    <div class="social-networks">Sing in with social:
+                        <p>
+                            <a href="#"><img src="img/rectangle-57.svg"></a>
+                            <a href="#"><img src="img/rectangle-58.svg"></a>
+                            <a href="#"><img src="img/rectangle-59.svg"></a>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
         <!--end popup-login-->
+        <!--begin popup-yourCard-->
+        <div id="popup-yourCard" class="overlay light">
+            <div class="popup">
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <h1>Your cart</h1>
+                    <h2><b>Billing address</b></h2>
+                    <div>
+                        <form id="cart-billing" action="" method="get">
+                            <div>
+                                <label>Gender:</label>
+                                <input id="gen-man" type="radio" name="gender" value="men">
+                                <label for="gen-man">Man</label>
+
+                                <input id="gen-women" type="radio" name="gender" value="women">
+                                <label for="gen-women">Women</label>
+                            </div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <!--<label for="fname">First Name</label>-->
+                                        <input type="text" id="fname" name="firstname" placeholder="First name">
+                                    </div>
+                                    <div>
+                                        <!--<label for="email">E-mail</label>-->
+                                        <input type="text" id="email2" name="email" placeholder="E-mail">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <!--<label for="lname">Last Name</label>-->
+                                        <input type="text" id="lname" name="lastname" placeholder="Last name">
+                                    </div>
+                                    <div>
+                                        <!--<label for="phone">Phone</label>-->
+                                        <input type="text" id="phone" name="phone" placeholder="Phone">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <!--<label for="address">Address</label>-->
+                                    <input type="text" id="address" name="address" placeholder="Address">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <!--<label for="country">Country</label>-->
+                                        <input type="text" id="country" name="country" placeholder="Country">
+                                    </div>
+                                    <div>
+                                        <!--<label for="state">State/Providence</label>-->
+                                        <input type="text" id="state" name="state" placeholder="State/Providence">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <!--<label for="city">City</label>-->
+                                        <input type="text" id="city" name="city" placeholder="City">
+                                    </div>
+                                    <div>
+                                        <!--<label for="zip">Zip/Postal</label>-->
+                                        <input type="text" id="zip" name="zip" placeholder="Zip/Postal">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--end popup-yourCard-->
 
     </div>
 </body>
