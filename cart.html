@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+<body>
+    <div class="wide-page">
+
+        <div class="your-cart">
+
+                <div class="mainmenu">
+                    <div class="logo lines">
+                        <a href="#"><img src="img/Logo.svg"></a>
+                    </div>
+                    <div class="lines menulist" >
+                        <a href="URL">Books</a>
+                        <a href="URL">Writers</a>
+                        <a href="URL">Publishers</a>
+                        <a href="URL">Blog</a>
+                        <a href="URL">Contact</a>
+                    </div>
+                    <div class="icons lines menu" >
+                        <a href="#"><img src="img/Search.svg"></a>
+                        <a class="button" href="#popup-yourCard"><img src="img/shopping cart.svg"></a>
+                        <a class="button" href="#popup-login"><img src="img/pexels-photo-69494.png"></a>
+                    </div>
+                </div>
+
+
+
+            <div  class="">
+                <div>
+                   <!-- <a class="close" href="#">&times;</a>-->
+                    <div class="">
+                        <h1>Your cart</h1>
+                        <h2><b>Billing address</b></h2>
+                        <div>
+                            <form id="cart-billing" action="" method="get">
+                                <div>
+                                    <div class="man-woman">
+                                        <label class="gender">Gender:</label>
+                                        <input id="gen-man" type="radio" name="gender" value="man">
+                                        <label class="gen-man" for="gen-man">Man</label>
+
+                                        <input id="gen-woman" type="radio" name="gender" value="woman">
+                                        <label class="gen-woman" for="gen-woman">Woman</label>
+                                    </div>
+                                    <div class="input-forms address">
+                                        <div>
+                                            <!--<label for="address">Address</label>-->
+                                            <input type="text" id="address" name="address" placeholder="Address">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="input-forms personal-data">
+                                    <div>
+                                        <!--<label for="fname">First Name</label>-->
+                                        <input type="text" id="fname" name="firstname" placeholder="First name">
+                                    </div>
+                                    <div>
+                                        <!--<label for="lname">Last Name</label>-->
+                                        <input type="text" id="lname" name="lastname" placeholder="Last name">
+                                    </div>
+                                    <div>
+                                        <select name="country">
+                                            <option>Country</option>
+                                            <option value="usa">USA</option>
+                                            <option value="ukraine">Ukraine</option>
+                                            <option value="italy">Italy</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <!--<label for="city">City</label>-->
+                                        <input type="text" id="city" name="city" placeholder="City">
+                                    </div>
+                                    <div>
+                                        <!--<label for="email">E-mail</label>-->
+                                        <input type="text" id="email2" name="email" placeholder="E-mail">
+                                    </div>
+                                    <div>
+                                        <!--<label for="phone">Phone</label>-->
+                                        <input type="text" id="phone" name="phone" placeholder="Phone">
+                                    </div>
+                                    <div>
+                                        <!--<label for="state">State/Providence</label>-->
+                                        <input type="text" id="state" name="state" placeholder="State/Providence">
+                                    </div>
+                                    <div>
+                                        <!--<label for="zip">Zip/Postal</label>-->
+                                        <input type="text" id="zip" name="zip" placeholder="Zip/Postal">
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+
+
+                                <div class="shipping-method">
+                                    <div class="right">
+                                        <label class="shipping">Shipping method:</label>
+                                        <input id="ups_saver" type="radio" name="ups" value="ups_saver free">
+                                        <label class="ups" for="ups_saver">UPS_SAVER</label>
+                                        <span>Free</span>
+
+
+                                        <input id="ups_express" type="radio" name="ups" value="ups_express">
+                                        <label class="ups" for="ups_express">UPS Express</label>
+                                        <span>$7,50</span>
+                                    </div>
+                                    <div class="ccount-left">
+                                        <input type="checkbox" id="Create" name="Create" />
+                                        <label for="Create">Create ccount for later use</label>
+                                    </div>
+                                </div>
+                                <h2><b>Payment method</b></h2>
+
+                                <div class="clear"></div>
+
+                                <div class="payment-methods personal-data">
+                                    <div class="payment">
+                                        <input type="radio" name="payment" value="credit-card">
+                                        <label>Credit card</label>
+                                        <img src="img/creditcard.png">
+                                    </div>
+                                    <div class="payment">
+                                        <input type="radio" name="payment" value="bancontact">
+                                        <label>Bancontact</label>
+                                        <img src="img/mistercash.png">
+                                    </div>
+                                    <div class="payment">
+                                        <input type="radio" name="payment" value="paypal">
+                                        <label>PayPal</label>
+                                        <img src="img/paypal.png">
+                                    </div>
+                                    <div class="payment">
+                                        <input type="radio" name="payment" value="banktransfer">
+                                        <label>Bank Transfer</label>
+                                        <img src="img/banktransfer.png">
+                                    </div>
+                                    <div class="payment">
+                                        <input type="radio" name="payment" value="ideal">
+                                        <label>IDEAL</label>
+                                        <img src="img/ideal.png">
+                                    </div>
+                                    <div class="payment">
+                                        <input type="radio" name="payment" value="sofort">
+                                        <label>SOFORT Banking</label>
+                                        <img src="img/sofort.png">
+                                    </div>
+                                    <div class="payment">
+                                        <input type="radio" name="payment" value="bitcoin">
+                                        <label>Bitcoin</label>
+                                        <img src="img/bitcoin.png">
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="proceed-payment">
+                                    <div>
+                                        <div class="coupon-code">
+                                            <input type="text" name="coupon-code" placeholder="Coupon code">
+                                            <button>Apply<img src="img/Rectangle 45.png"></button>
+                                        </div>
+                                        <div>
+                                            Type your coupone code (if you have), and take 20% discount for your order.
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="conditions">
+                                            <input type="checkbox" name="conditions" />
+                                            <label>I accept the <a href="">Terms & conditions</a></label>
+                                        </div>
+                                        <div>
+                                            <table>
+                                                <tr>
+                                                    <td>Shipping</td>
+                                                    <td>$4.95</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Subtotal</td>
+                                                    <td>$25</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Total</td>
+                                                    <td>$28.50</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div>
+                                            <button>Proceed to payment</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!--futer-->
+
+
+            <div class="lines menu" >
+                <a href="URL">SITEMAP</a>
+                <a href="URL">HELP</a>
+                <a href="URL">DELIVERY</a>
+                <a href="URL">PRIVACY POLICY</a>
+                <a href="URL">ACCESSIBILITY</a>
+            </div>
+            <hr>
+
+
+
+
+            <div>
+                <div class="lines">
+                    <div class="lines">
+                        <h2><strong>About</strong></h2>
+                        <span class="lines">Cras quis nulla commodo, aliquam lectus sed, blandit augue. Cras ullam- corper bibendum bibendum. Duis tincidunt urna non pretium porta. Nam condimentum vitae ligula vel ornare. Phasellus at semper turpis.</span><br>
+                        <div class="lines">
+                            <div class="lines">
+                                <h3><strong>About</strong></h3>
+                                <span class="lines">Rare Books &#38 Textbooks</span><br>
+                            </div>
+                            <div class="lines">
+                                <h3><strong>DpReview</strong></h3>
+                                <span class="lines">Digital Photography</span><br>
+                            </div>
+                            <div class="lines">
+                                <h3><strong>Audible</strong></h3>
+                                <span class="lines">Download Audio Books</span><br>
+                            </div><br>
+                                <h3><strong>Junglee</strong></h3>
+                                <span class="lines">Shop Online in India</span><br>
+                            <div class="lines">
+                                <h3><strong>Look</strong></h3>
+                                <span class="lines">Kids Clothing &#38 Shoes</span><br>
+                            </div>
+                            <div class="lines">
+                                <h3><strong>MYHABIT</strong></h3>
+                                <span class="lines">Private Fashion Designer Sales</span><br>
+                            </div><br>
+                        </div>
+                    </div>
+                    <div class="lines">
+                        <h2><strong>Stay in touch</strong></h2>
+                        <span class="lines">Your E-mail   |   Subscribe  <a href="https://placeholder.com"><img src="http://via.placeholder.com/23x11"></a></span>
+                        <hr>
+                        <h2><strong>Follow us</strong></h2>
+                        <div class="lines">
+                            <a href="#"><img src="img/Facebook.svg"></a>
+                            <a href="#"><img src="img/Twitter.svg"></a>
+                            <a href="#"><img src="img/Pinterest.svg"></a>
+                            <a href="#"><img src="img/Instagram.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span>&#169 2016 Bookworm. All rights reserved<hr></span>
+        </div>
+        <!--begin popup-login-->
+        <div id="popup-login" class="overlay light">
+            <div class="popup">
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <h2>Login</h2>
+
+                        <form id="form-login" action="" method="get">
+                            <div>
+                                <label for="email"></label>
+                                <input type="text" id="email" name="mail" placeholder="E-mail">
+                            </div>
+
+                            <div>
+                                <label for="password"></label>
+                                <input type="text" id="password" name="Password" placeholder="Password">
+                            </div>
+
+                            <div class="remember">
+                                <div class="left">
+                                    <input type="checkbox" id="remember" name="remember_me" />
+                                    <label for="remember">Remember me</label>
+                                </div>
+                                <div class="right">
+                                    <a href="#" class="forgot-password">Forgot password</a>
+                                </div>
+                            </div>
+                            <div class="clear">
+
+                            </div>
+                            <div>
+                                <input id="Sing-in" type="submit" value="Sing_in">
+                            </div>
+                        </form>
+
+                    <a class="create" href="#">Create an account<img src="img/Arrow right.svg"></a>
+                    <div class="social-networks">Sing in with social:
+                        <p>
+                            <a href="#"><img src="img/rectangle-57.svg"></a>
+                            <a href="#"><img src="img/rectangle-58.svg"></a>
+                            <a href="#"><img src="img/rectangle-59.svg"></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end popup-login-->
+   
+    </div>
+</body>
+</html>

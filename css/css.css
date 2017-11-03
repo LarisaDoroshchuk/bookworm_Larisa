@@ -22,6 +22,11 @@
     src: url('https://fonts.googleapis.com/css?family=Ramaraja');
 }
 
+@font-face{
+    font-family: 'Yrsa', serif;
+    src: url('https://fonts.googleapis.com/css?family=Yrsa');
+}
+
 
 
 
@@ -294,11 +299,160 @@ a {
 
 /* end popup-login*/
 
-/* start popup-yourCard*/
+/* start yourCardt*/
+.your-cart{
+    width: 1140px;
+    margin: auto;
+    padding: 0;
+}
+
+.your-cart h1{
+    text-align: center;
+    padding-top: 230px;
+    color: #555963;
+    font-size: 42px;
+    font-family: 'Ramaraja', serif;
+}
+.your-cart h2{
+    color: #555963;
+    font-size: 28px;
+    font-family: 'Ramaraja', serif;
+}
+
+.gender{
+    color: #45474b;
+    font-size: 21px;
+    font-family: 'Ramaraja', serif;
+}
+.gen-man, .gen-woman{
+    color: #45474b;
+    font-size: 16px;
+    font-family: 'Lato-regular', sans-serif;
+}
+
+.input-forms input, .input-forms select{
+    font-family: 'Lato-regular', sans-serif;
+    font-size: 16px;
+    color: #959ba1;
+    width: 246px;
+    padding: 30px 0 20px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #555963;
+    outline: none;
+
+}
+
+.input-forms select{
+    -webkit-appearance: none;
+    background: url("/bookworm_Larisa/img/Shape.svg") no-repeat right;
+}
+
+.personal-data div{
+    float: left;
+    position: relative;
+    width: 20%;
+    padding-right: 35px;
+}
+
+.address{
+    width: 50%;
+    float: left;
+    position: relative;
+
+}
+
+.address div input{
+    width: 507px;
+}
+
+.man-woman{
+    width: 46%;
+    margin: 0;
+    float: left;
+    padding-top: 30px;
+}
+
+.shipping-method{
+    margin-top: 65px;
+    margin-bottom: 71px;
+}
+
+.shipping{
+    color: #45474b;
+    font-size: 21px;
+    font-family: 'Ramaraja', serif;
+}
+
+.ups{
+    font-family: 'Lato-regular', sans-serif;
+    font-size: 16px;
+    color: #45474b;
+}
+
+#ups_saver, #ups_express{
+    margin-left: 44px;
+}
+
+.right span{
+    color: #45474b;
+    font-size: 20px;
+    font-family: 'Yrsa', serif;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.ccount-left{
+    margin-left: 830px;
+    font-family: 'Lato-regular', sans-serif;
+    font-size: 16px;
+    color: #45474b;
+}
+
+.payment{
+    font-family: 'Lato-regular', sans-serif;
+    font-size: 16px;
+    color: #45474b;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    height: 20px;
+}
+
+.payment img{
+    margin-left: 20px;
+}
+
+.payment-methods{
+    margin-bottom: 90px;
+}
 
 
 
-/* end popup-yourCard*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end yourCart*/
 
 
 @media screen and (max-width: 1200px) {
@@ -309,7 +463,8 @@ a {
 
 @media screen and (min-width: 992px) {
     body{
-        background-color: yellow;}
+
+    }
 }
 
 @media screen and (min-width: 768px) {
