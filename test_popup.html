@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5);
+            transition: opacity 200ms;
+            visibility: hidden;
+            opacity: 0;
+        }
+
+        .overlay.light {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        .overlay:target {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .popup {
+            margin: 75px auto;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #666;
+            width: 300px;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+        .light .popup {
+            border-color: #aaa;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+        }
+
+        .popup .close {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            top: 20px;
+            right: 20px;
+            opacity: 0.8;
+            transition: all 200ms;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #666;
+        }
+        .popup .close:hover {
+            opacity: 1;
+        }
+        .popup .content {
+            max-height: 400px;
+            overflow: auto;
+        }
+
+    </style>
+
+</head>
+<body>
+        <a class="button" href="#popup-login">Click Me</a>
+        <div id="popup-login" class="overlay light">
+            <div class="popup">
+                <h2>Info box</h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <p>This is done totally without JavaScript. Just HTML and CSS.</p><h2>Login</h2>
+                    <div>
+                        <form id="E-mail" action="" method="get">
+                            <!--<label for="E-mail">First Name</label>-->
+                            <input type="text" id="" name="firstname" placeholder="E-mail..">
+                        </form>
+                    </div>
+                    <div>
+                        <form id="Password" action="" method="get">
+                            <!--<label for="Password">First Name</label>-->
+                            <input type="text" id="Password" name="Password" placeholder="Password">
+                        </form>
+                    </div>
+                    <input type="checkbox" checked/>
+                    <span>Remember me</span>
+                    <span>Forgot password</span>
+                    <form action="Sing_in">
+                        <p><input type="submit" value="Sing in"></p>
+                    </form>
+                    <a href="#">Create an account<img src="img/Arrow right.svg"></a>
+                    <div>Sing in with social:</div>
+                    <div>
+                        <a href="#"><img src="img/Facebook.svg">f</a>
+                        <a href="#"><img src="img/Twitter.svg">tw</a>
+                        <a href="#"><img src="img/Google.svg">G</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+</body>
+</html>

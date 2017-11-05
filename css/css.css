@@ -563,9 +563,14 @@ a{
 /* end yourCart*/
 
 /*start footer*/
-.footer{
+.background-footer{
     background-color: #f5fdff;
-    border-bottom: 1px solid #555963;
+}
+
+.footer{
+    width: 1140px;
+    margin: auto;
+    padding: 0;
 }
 
 .footer-menu{
@@ -585,16 +590,137 @@ a{
     margin-right: 47px;
 }
 
+.footer-body .about{
+    width: 56%;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about, .stay-touch{
+    padding-top: 100px;
+}
+
+.footer-body h2{
+    color: #555963;
+    font-size: 28px;
+    font-family: 'Ramaraja', serif;
+}
+
+.footer-body h3{
+    color: #555963;
+    font-size: 21px;
+    font-family: 'Ramaraja', serif;
+}
+.footer-body{
+   margin-bottom: 120px;
+}
+
+.about-text{
+    color: #555963;
+    font-size: 19px;
+    font-family: 'Yrsa', serif;
+}
+
+.stay-touch{
+    padding-left: 130px;
+    width: 30%;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.social-media a{
+    margin-right: 20px;
+}
+
+.your-mail{
+    width: 350px;
+    border-bottom: 1px solid #555963;
+    padding-bottom: 14px;
+    margin-bottom: 84px;
+
+}
+
+.your-mail input{
+    font-family: 'Lato-regular', sans-serif;
+    font-size: 15px;
+    color: #959ba1;
+    width: 220px;
+    height: 19px;
+    padding: 0;
+    border-left: 0;
+    border-right: 1px solid #555963;
+    border-top: 0;
+    border-bottom: 0;
+    margin: 0;
+    outline: none;
+    background-color: #f5fdff;
+}
+
+.your-mail button{
+    font-family: 'Lato-regular', sans-serif;
+    font-weight: 600px;
+    font-size: 16px;
+    color: #45474b;
+    width: 119px;
+    height: 19px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    outline: none;
+    background-color: #f5fdff;
+}
+
+.your-mail button img{
+    padding-left: 10px;
+}
+
+.ade-books div{
+    float: left;
+    position: relative;
+    width: 25%;
+    padding-right: 45px;
+}
+.ade-books div:nth-child(3n+3){
+     padding-right: 0;
+}
+
+
+
+.ade-books span{
+    font-family: 'Lato-regular', sans-serif;
+    font-size: 14px;
+    color: #4f6569;
+}
+.ade-books {
+    margin-top: 50px;
+}
+
+.end-bookworm{
+    font-family: 'Lato-regular', sans-serif;
+    font-size: 15px;
+    color: #555963;
+    padding-bottom: 70px;
+
+}
+.end-bookworm:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 74%;
+    height: 1px;
+    background: #d2d9db;
+    border: solid #FFF;
+    border-width: 0 10px;
+}
 
 
 
 
 
-
-
-
-
-/*start footer*/
+/*end footer*/
 
 
 
