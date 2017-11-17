@@ -32,6 +32,11 @@
     src: url('https://fonts.googleapis.com/css?family=Amiri');
 }
 
+@font-face{
+    font-family: "Myriad";
+    src: url('http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF') format("truetype");
+}
+
 
 
 
@@ -729,7 +734,7 @@ a{
 }
 
 .blog-text{
-    width: 749px;
+    width: 765px;
     margin: auto;
     padding: 0;
 }
@@ -792,6 +797,142 @@ a{
     padding-left: 20px;
 }
 
+.featured-img{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.featured-img img{
+    width: 100%;
+}
+
+.featured-img figcaption{
+    color: #a8a8a8;
+    font-size: 14px;
+    font-family: 'Lato-regular', sans-serif;
+    padding-top: 28px;
+    padding-bottom: 78px;
+}
+
+.text-yrsa{
+    color: #555963;
+    font-size: 23px;
+    font-family: 'Yrsa', serif;
+}
+
+.link-design{
+    color: #efa63b;
+}
+
+.post-content blockquote{
+    color: #555963;
+    font-size: 20px;
+    font-family: "Myriad";
+    font-weight: 600;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 49px;
+    margin-bottom: 53px;
+}
+
+.post-content h2{
+    color: #555963;
+    font-size: 42px;
+    font-family: 'Ramaraja', serif;
+    font-weight: 600;
+    margin-top: 72px;
+    margin-bottom: 40px;
+
+}
+
+.align-right{
+    float: right;
+    margin: 7px 0 7px 7px;
+}
+
+.blog-text hr{
+    margin-top: 54px;
+    margin-bottom: 54px;
+}
+
+.small{
+    margin-bottom: 115px;
+}
+
+.mich{
+    margin-top: 21px;
+    margin-bottom: 50px;
+}
+
+.shakespare{
+    color: #555963;
+    font-size: 28px;
+    font-family: 'Ramaraja', serif;
+    font-weight: 600;
+    margin-bottom: 23px;
+}
+
+.start{
+    color: #555963;
+    font-size: 24px;
+    font-family: 'Ramaraja', serif;
+    margin-top: 44px;
+    margin-bottom: 48px;
+}
+
+.blog-text li{
+    margin-bottom: 50px;
+}
+
+.blog-text ol{
+    padding-left: 18px;
+}
+
+.featured-imadg{
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+}
+
+.blog-text figcaption{
+    color: #a8a8a8;
+    font-size: 14px;
+    font-family: 'Lato-regular', sans-serif;
+    padding-top: 32px;
+    padding-bottom: 56px;
+}
+
+.read{
+    padding: 51px 42px 46px 32px;
+}
+
+.align-left{
+    float: left;
+    margin: 7px 0 7px 7px;
+}
+
+.most-incredible{
+    color: #555963;
+    font-size: 21px;
+    font-family: 'Ramaraja', serif;
+    margin: 0;
+    padding: 0;
+    width: 330px;
+}
+
+.day-worthy{
+    color: #555963;
+    font-size: 15px;
+    font-family: 'Lato-regular', sans-serif;
+    width: 330px;
+    Display:block
+}
+
+
+
+
+
+
 
 
 
@@ -806,6 +947,138 @@ a{
 
 
 
+
+/* start yourCart2*/
+
+.table-yourcart2{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 80px;
+}
+
+.table-yourcart2 tr td:nth-child(3){
+    width: 18%;
+}
+
+.table-yourcart2 tr td:nth-child(4){
+    width: 24%;
+}
+
+.tr-product td{
+    border: 10px solid #ffffff;
+    border-right: 2px #f5fdff;
+    border-left: 2px #f5fdff;
+
+}
+
+.td-img-left{
+    padding-left: 26px;
+}
+
+.td-img-product{
+    padding-right: 19px;
+    width: 1%;
+}
+
+.text-product-yourcart2{
+    vertical-align: sub;
+    padding-top: 16px;
+}
+
+.tr-product{
+    background: #f5fdff;
+    height: 144px;
+
+}
+
+.th-yourcart2{
+    color: #555963;
+    font-size: 18px;
+    font-family: 'Ramaraja', serif;
+    text-align: left;
+}
+
+.td-product-yourcart2{
+    color: #45474b;
+    font-size: 19px;
+    font-family: 'Ramaraja', serif;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.td-product-red-yourcart2{
+    color: #dd9327;
+    font-size: 15px;
+    font-family: 'Amiri', serif;
+    font-weight: normal;
+}
+
+.td-format-language{
+    color: #555963;
+    font-size: 15px;
+    font-family: 'Lato-regular', sans-serif;
+}
+
+.td-price{
+    color: #555963;
+    font-size: 25px;
+    font-family: 'Yrsa', serif;
+    font-weight: 500;
+}
+
+.register{
+    width: 70px;
+    height: 21px;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: content-box;
+    border: 0;
+    background: #f5fdff;
+}
+
+.minus{
+    vertical-align: super;
+    padding-right: 10px;
+}
+
+.plus{
+    vertical-align: text-bottom;
+
+}
+
+.proceed-payment-yourcart2{
+    padding-top: 85px;
+    margin-bottom: 121px;
+}
+
+.proceed-payment-yourcart2>div{
+    width: 49%;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.button-checkout{
+    width: 50%;
+    float: right;
+    text-align: -webkit-right;
+}
+
+.button-checkout button{
+    font-family: "Myriad";
+    font-size: 16px;
+    font-weight: 600;
+    color: #45474b;
+    background-color: white;
+    border: 2px solid black;
+    padding: 13px 23px 13px 23px;
+    margin-top: 30px;
+    width: 187px;
+    height: 42px;
+}
+
+/* end yourCart2*/
 
 
 
