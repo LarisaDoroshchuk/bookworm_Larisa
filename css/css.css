@@ -37,7 +37,8 @@
     src: url('http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF') format("truetype");
 }
 
-
+/* todo Шрифты подключены не правильно, и соответсвенно не отображаются */
+/* todo Исправить грубые ошибки в css: недопустиые значения свойств*/
 
 
 
@@ -112,7 +113,7 @@ a{
     color: coral;
 }
 
-
+/* todo Убрать статически заданную ширину, при любом меньшем разрешении верстка ломается */
 .wide-page {
     width: 1920px;
     margin: auto;
@@ -949,7 +950,7 @@ a{
 
 
 /* start yourCart2*/
-
+/* todo Не соблюдены отступы между элементвами, не отображаются шрифты */
 .table-yourcart2{
     width: 100%;
     border-collapse: collapse;
